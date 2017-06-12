@@ -1,0 +1,5 @@
+﻿
+Database:	homedeco_db
+Host:	localhost
+Username:	homedeco_us
+Password:	thaiduong123@
