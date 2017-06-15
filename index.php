@@ -83,15 +83,7 @@
         <div id="main-slider" class="main-slider flexslider">
             <ul class="slides">
               <li>
-                <img src="img/slides/flexslider/1.jpg" alt="" />
-                <div class="flex-caption">
-                    <h3>Thiết bị khử khoán...</h3> 
-					<p>Hãy để chúng tôi giải quyết các vướng bận của các bạn trong các vấn đề liên quan đến NƯỚC.</p> 
-					<a href="#" class="btn btn-theme">Learn More</a>
-                </div>
-              </li>
-              <li>
-                <img src="img/slides/flexslider/2.jpg" alt="" />
+                <img src="img/slides/flexslider/banner-slide-phamchuong-1.jpg" alt="" />
                 <div class="flex-caption">
                     <h3>Fully Responsive</h3> 
 					<p>Sodales neque vitae justo sollicitudin aliquet sit amet diam curabitur sed fermentum.</p> 
@@ -99,7 +91,7 @@
                 </div>
               </li>
               <li>
-                <img src="img/slides/flexslider/3.jpg" alt="" />
+                <img src="img/slides/flexslider/banner-slide-phamchuong-2.jpg" alt="" />
                 <div class="flex-caption">
                     <h3>Clean & Fast</h3> 
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec mer lacinia.</p> 
