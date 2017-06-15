@@ -41,7 +41,7 @@
 <base href="http://<?=$config_url?>/"	/>
 <head>
 <meta charset="utf-8">
-<title>Home</title>
+<title>XƯỞNG SỬA CHỮA Ô TÔ PHẠM CHƯƠNG</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="Bootstrap 3 template for corporate business" />
 <meta name="author" content="#" />
@@ -131,18 +131,17 @@
 		<div class="row">
 			<div class="col-sm-6 col-lg-6">
 				<div class="widget">
-					<h4>Get in touch with us</h4>
+					<h4>Liên hệ với chúng tôi</h4>
 					<address>
-					<strong>HỒ SƠ GIỚI THIỆU 
-CÔNG TY CỔ PHẦN XD SX & TM
-THÁI TRƯỜNG PHÁT
+					<strong>XƯỞNG SỬA CHỮA Ô TÔ PHẠM CHƯƠNG
 
 </strong><br>
-					 Địa chỉ:       73 Hòa hưng P12 , Quận 10  Tp HCM
-					 Someplace 71745 Earth </address>
+					 Địa chỉ: 100 Đào Sư Tích, ấp 3, phường Phước Kiểng, huyện NHà Bè
+Tp.HCM
+					 </address>
 					<p>
-						<i class="icon-phone"></i>Điện thoại: 0839873679  -   Fax : 0839873679 <br>
-						<i class="icon-envelope-alt"></i>Email: thtpco@gmail.com
+						<i class="icon-phone"></i>Điện thoại: 0909 718 872<br>
+						<i class="icon-envelope-alt"></i>Email: huutan.vo@gmail.com
 					</p>
 				</div>
 			</div>
@@ -178,7 +177,7 @@ THÁI TRƯỜNG PHÁT
 				<div class="col-lg-6">
 					<div class="copyright">
 						<p>
-							<span>&copy; 2015 All right reserved. <a href="#/"></a> 
+							<span>&copy; 2017 All right reserved. <a href="#/"></a> 
                              <!-- 
                                 All links in the footer should remain intact. 
                                 Licenseing information is available at: http://bootstraptaste.com/license/

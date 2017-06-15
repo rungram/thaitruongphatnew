@@ -49,12 +49,12 @@ function js_submit(){
 	<div class="block">
     <h3><span><span>Liên hệ </span></span></h3>
     <div class="content-lienhe">
-    <p><strong>CÔNG TY TNHH CÔNG NGHỆ THÁI TRƯỜNG PHÁT</strong></p>
-<p>Địa chỉ: 73 Hòa hưng P12 , Quận 10 Tp HCM</p>
-<p>Điện thoại: 0839873679 - Fax : 0839873679 </p>
-<p>Email : thtpco@gmail.com </p>
+    <p><strong>XƯỞNG SỬA CHỮA Ô TÔ PHẠM CHƯƠNG</strong></p>
+<p>Địa chỉ: 100 Đào Sư Tích, ấp 3, phường Phước Kiểng, huyện NHà Bè
+Tp.HCM</p>
+<p>Điện thoại: 0909 718 872 </p>
+<p>Email : huutan.vo@gmail.com </p>
 <p><strong>CHI NHÁNH</strong></p>
-<p> Quận 11 Tp HCM</p>
    </div></div>
 
         	<div class="block">

@@ -68,7 +68,7 @@
 
 <div class="col-sm-9 col-lg-9">
     <div class="info">
-      <h2 class="title_index">About our company</h2>
+      <h2 class="title_index">Giới thiệu công ty</h2>
       <?=$noidung_about?>
     </div>
     <div class="product">
@@ -95,7 +95,7 @@
     </div>
     <div style="clear:both"></div>
     <div class="news">
-    <h2 class="title_index">News</h2>
+    <h2 class="title_index">Tin tức</h2>
     <div class="col-lg-12 listnews">
        <?php for($j=0,$count_tllc=count($result_detailq);$j<$count_tllc;$j++) { ?>
            <div class="row" >

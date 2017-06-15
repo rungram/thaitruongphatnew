@@ -39,7 +39,7 @@
 				<div class="row">
 					<div class="col-md-6">
 						<ul class="topleft-info">
-							<li><i class="fa fa-phone"></i> 084 399 123</li>
+							<li><i class="fa fa-phone"></i> 0909 718 872</li>
 						</ul>
                         <ul class="social-network-top">
                             <li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
@@ -48,7 +48,7 @@
                             <li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
                             <li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
 						</ul> 
-                        <ul class="social-network-top"><li><a href="#">Email: thtpco@gmail.com </a></li>
+                        <ul class="social-network-top"><li><a href="#">Email: huutan.vo@gmail.com </a></li>
                         </ul>
 					</div>
 					<div class="col-md-6">
@@ -106,7 +106,7 @@
             </div>
             <div class="navbar-collapse collapse ">
                 <ul class="nav navbar-nav">
-                    <li  class="active"><a href="index.html">Trang chủ</a></li>
+                    <li  class=""><a href="index.html">Trang chủ</a></li>
 		            <li><a href="gioi-thieu.html">Giới thiệu</a></li>
                     <?php include _template."layout/menu_top.php"; ?>
                     <li><a href="lien-he.html">Liên hệ </a></li>

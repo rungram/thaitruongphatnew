@@ -26,17 +26,17 @@
       <div class="block block-yahoo">
         <h3 class="title_1">Hổ trợ trực tuyến</h3>
         <div class="httt">
-        <img width="49" src="img/index_27.png"><span class="httt1">(+84.8) 903610327</span>
+        <img width="49" src="img/index_27.png"><span class="httt1">(+84.8) 0909 718 872</span>
         </div>
         <div class="httt">
-        <img width="49" height="39" src="img/index_30.png" alt=""><span class="httt1">
-        <a href="ymsgr:SendIM?Mr.Minh" class="truongthuanco"> <img src="img/online_002.gif" alt="Yahoo ID: truongthuanco" width="64" border="0" align="absmiddle" height="16"></a>
-        Sale</span>
+       <img src="img/index_32.png" alt="" width="49"><span class="httt1">
+        <a href="skype:Mr.Minh?call"> <img src="img/call_blue_transparent_70x23.png" style="border: none;" alt="Skype Me™!" width="70" height="23"></a>
+        Support 1</span>
         </div>
         <div class="httt">
         <img src="img/index_32.png" alt="" width="49"><span class="httt1">
         <a href="skype:Mr.Minh?call"> <img src="img/call_blue_transparent_70x23.png" style="border: none;" alt="Skype Me™!" width="70" height="23"></a>
-        Support</span>
+        Support 2</span>
         </div>
         
       </div>

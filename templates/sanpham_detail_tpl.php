@@ -80,6 +80,10 @@ if(isset($_GET['id']))
           <div class="col-lg-12">
           <?=$chitiet_sp["mota_vi"]?>
           </div>
+          <div class="col-lg-12">
+          <?=$chitiet_sp["noidung_vi"]?>
+          </div>
+          
           <div class="like-fb">
             <!-- AddThis Button BEGIN -->
 			<div class="box-social pull-left chiase">
