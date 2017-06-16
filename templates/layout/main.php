@@ -30,7 +30,7 @@
 	$result_linhvuc=$d->result_array();
 	
 	$d->reset();
-	$result_detailq="select * from #_tinloai1_1 order by id limit 0,2";
+	$result_detailq="select * from #_tinloai1_1 order by id limit 0,3";
 	$d->query($result_detailq);
 	$result_detailq=$d->result_array();
 	$tg=date('Y-m-d H:i:s');
@@ -73,7 +73,7 @@
     </div>
     <div class="product">
       <div class="col-md-12 col-sm-12 ">
-        <h2 class="title_index">Kinh doanh</h2>
+        <h2 class="title_index">Sản phẩm & Dịch vụ</h2>
         <div class="block-blog1">
         <?php
          for ($i=0;$i<count($result_spnam);$i++)

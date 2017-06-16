@@ -42,13 +42,13 @@
 							<li><i class="fa fa-phone"></i> 0909 718 872</li>
 						</ul>
                         <ul class="social-network-top">
-                            <li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.facebook.com/GaragePhamChuong/" data-placement="top" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
                             <li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
                             <li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
 						</ul> 
-                        <ul class="social-network-top"><li><a href="#">Email: huutan.vo@gmail.com </a></li>
+                        <ul class="social-network-top"><li><a href="mailto:huutan.vo@gmail.com">Email: huutan.vo@gmail.com</a></li>
                         </ul>
 					</div>
 					<div class="col-md-6">
@@ -84,7 +84,7 @@
 		</div>
     <div id="hdbanner" class="container">
  		<div class="col-md-3">
-		<a class="logo" href="index.html"><img src="img/logo.png" alt="" /></a>
+		<a class="logo" style="margin-top: 7px;" href="index.html"><img src="img/logo.png" alt="" /></a>
 	</div>
 	<div class="col-md-9"><a class="banner	" href="index.html"><img src="img/banner.png" alt="" ></a>
 	</div>

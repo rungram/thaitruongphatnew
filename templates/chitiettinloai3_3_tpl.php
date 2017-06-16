@@ -32,6 +32,10 @@
           <div class="col-lg-12">
           <?=$result_detail["mota_vi"]?>
           </div>
+          <div class="col-lg-12">
+          <?=$result_detail["noidung_vi"]?>
+          </div>
+          
           <div class="like-fb">
             <!-- AddThis Button BEGIN -->
 			<div class="box-social pull-left chiase">
