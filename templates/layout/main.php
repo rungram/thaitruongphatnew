@@ -67,51 +67,47 @@
 ?>
 
 <div class="col-sm-9 col-lg-9">
-    <div class="info">
-      <h2 class="title_index">Giới thiệu công ty</h2>
-      <?=$noidung_about?>
-    </div>
-    <div class="product">
-      <div class="col-md-12 col-sm-12 ">
-        <h2 class="title_index">Sản phẩm & Dịch vụ</h2>
-        <div class="block-blog1">
+  <div class="info">
+    <h2 class="title_index">Giới thiệu công ty</h2>
+    <?=$noidung_about?>
+  </div>
+  <div class="product">
+    <div class="col-md-12 col-sm-12 ">
+      <h2 class="title_index">Sản phẩm & Dịch vụ</h2>
+      <div class="block-blog1">
         <?php
          for ($i=0;$i<count($result_spnam);$i++)
          {
          ?>
-         <div class=" col-md-4 col-sm-4 col-xsm-6 col-xs-12  padding10">
-            <div class="item-service"><a href="chi-tiet-san-pham/<?=$result_spnam[$i]['tenkhongdau']?>-<?=$result_spnam[$i]['id']?>.html" class="view-img"></a><a href="chi-tiet-san-pham/<?=$result_spnam[$i]['tenkhongdau']?>-<?=$result_spnam[$i]['id']?>.html" class="view-img"><img src="upload/sanpham/<?php if($result_spnam[$i]["tc_big"]==1) echo $result_spnam[$i]["photo"]; else echo $result_spnam[$i]["photo"] ?>" alt="<?=$result_spnam[$i]["ten_vi"]?>"></a><a href="chi-tiet-san-pham/<?=$result_spnam[$i]['tenkhongdau']?>-<?=$result_spnam[$i]['id']?>.html">
-            <h2><?=$result_spnam[$i]["ten_vi"]?></h2>
-              </a> 
-              </div>
-          </div>
-         <?php
+        <div class=" col-md-4 col-sm-4 col-xsm-6 col-xs-12  padding10">
+          <div class="item-service"><a href="chi-tiet-san-pham/<?=$result_spnam[$i]['tenkhongdau']?>-<?=$result_spnam[$i]['id']?>.html" class="view-img"></a><a href="chi-tiet-san-pham/<?=$result_spnam[$i]['tenkhongdau']?>-<?=$result_spnam[$i]['id']?>.html" class="view-img"><img src="upload/sanpham/<?php if($result_spnam[$i]["tc_big"]==1) echo $result_spnam[$i]["photo"]; else echo $result_spnam[$i]["photo"] ?>" alt="<?=$result_spnam[$i]["ten_vi"]?>"></a><a href="chi-tiet-san-pham/<?=$result_spnam[$i]['tenkhongdau']?>-<?=$result_spnam[$i]['id']?>.html">
+            <h2>
+              <?=$result_spnam[$i]["ten_vi"]?>
+            </h2>
+            </a> </div>
+        </div>
+        <?php
          } 
          ?>
-        </div>
-        <div class="phantrang"></div>
-       
       </div>
+      <div class="phantrang"></div>
     </div>
-    <div style="clear:both"></div>
-    <div class="news">
+  </div>
+  <div style="clear:both"></div>
+  <div class="news">
     <h2 class="title_index">Tin tức</h2>
     <div class="col-lg-12 listnews">
-       <?php for($j=0,$count_tllc=count($result_detailq);$j<$count_tllc;$j++) { ?>
-           <div class="row" >
-               <a href="tin-tuc-detail/<?=$result_detailq[$j]['tenkhongdau']?>-<?=$result_detailq[$j]['id']?>.html" title="<?=$result_detailq[$j]['ten_vi']?>">
-                    <h4><?=$result_detailq[$j]['ten_vi']?></h4> </a>   
-               <a href="tin-tuc-detail/<?=$result_detailq[$j]['tenkhongdau']?>-<?=$result_detailq[$j]['id']?>.html" title="<?=$result_detailq[$j]['ten_vi']?>">     
-                                    <img class="img-responsive pull-left" alt="" src="upload/tinloai1_1/<?=$result_detailq[$j]['thumb']?>">
-                                    <p>
-                                         <?=$result_detailq[$j]['mota_vi']?>
-                                    </p>   
-               </a>                        
-           </div>  
-	   <?php } ?> 
-       
-       
-    </div>                        
-    
+      <?php for($j=0,$count_tllc=count($result_detailq);$j<$count_tllc;$j++) { ?>
+      <div class="row" > <a href="tin-tuc-detail/<?=$result_detailq[$j]['tenkhongdau']?>-<?=$result_detailq[$j]['id']?>.html" title="<?=$result_detailq[$j]['ten_vi']?>">
+        <h4>
+          <?=$result_detailq[$j]['ten_vi']?>
+        </h4>
+        </a> <a href="tin-tuc-detail/<?=$result_detailq[$j]['tenkhongdau']?>-<?=$result_detailq[$j]['id']?>.html" title="<?=$result_detailq[$j]['ten_vi']?>"> <img class="img-responsive pull-left" alt="" src="upload/tinloai1_1/<?=$result_detailq[$j]['thumb']?>">
+        <p>
+          <?=$result_detailq[$j]['mota_vi']?>
+        </p>
+        </a> </div>
+      <?php } ?>
     </div>
+  </div>
 </div>
