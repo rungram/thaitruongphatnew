@@ -112,35 +112,24 @@
             <h4>Liên hệ với chúng tôi</h4>
             <address>
             <strong>XƯỞNG SỬA CHỮA Ô TÔ PHẠM CHƯƠNG </strong><br>
-            Địa chỉ: 100 Đào Sư Tích, ấp 3, phường Phước Kiểng, huyện NHà Bè
-            Tp.HCM
+            Địa chỉ: 100 Đào Sư Tích, ấp 3, phường Phước Kiểng, huyện NHà Bè, Tp.HCM
             </address>
             <p> <i class="icon-phone"></i>Điện thoại: 0909 718 872<br>
               <i class="icon-envelope-alt"></i>Email: huutan.vo@gmail.com </p>
           </div>
         </div>
-        <div class="col-sm-3 col-lg-3">
+        <div class="col-sm-6 col-lg-6">
           <div class="widget">
-            <h4>CHI NHÁNH</h4>
-            <ul class="link-list">
-              <li><a href="#">CHI NHÁNH 1</a></li>
-              <li><a href="#">CHI NHÁNH 2</li>
-              <li><a href="#">CHI NHÁNH 3</a></li>
-            </ul>
+            <h4>Văn phòng giao dịch</h4>
+            <address>
+            <strong>XƯỞNG SỬA CHỮA Ô TÔ PHẠM CHƯƠNG </strong><br>
+            Địa chỉ: 100 Đào Sư Tích, ấp 3, phường Phước Kiểng, huyện NHà Bè, Tp.HCM
+            </address>
+            <p> <i class="icon-phone"></i>Điện thoại: 0909 718 872<br>
+              <i class="icon-envelope-alt"></i>Email: huutan.vo@gmail.com </p>
           </div>
         </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="widget">
-            <h4>Document</h4>
-            <ul class="link-list">
-              <li><a href="#">Press release</a></li>
-              <li><a href="#">Terms and conditions</a></li>
-              <li><a href="#">Privacy policy</a></li>
-              <li><a href="#">Career center</a></li>
-              <li><a href="#">Contact us</a></li>
-            </ul>
-          </div>
-        </div>
+        
       </div>
     </div>
     <div id="sub-footer">
