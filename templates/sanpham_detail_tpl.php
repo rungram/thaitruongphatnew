@@ -98,7 +98,7 @@ if(isset($_GET['id']))
             <a class="addthis_button_print addthis_button_preferred_4 at300b" title="In" href="#"><span class="at-icon-wrapper" style="line-height: 16px; height: 16px; width: 16px; background-color: rgb(115, 138, 141);padding:15px 5px 0 5px;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" title="Print" alt="Print" style="height: 25px;" class="at-icon at-icon-print"><g><path d="M24.67 10.62h-2.86V7.49H10.82v3.12H7.95c-.5 0-.9.4-.9.9v7.66h3.77v1.31L15 24.66h6.81v-5.44h3.77v-7.7c-.01-.5-.41-.9-.91-.9zM11.88 8.56h8.86v2.06h-8.86V8.56zm10.98 9.18h-1.05v-2.1h-1.06v7.96H16.4c-1.58 0-.82-3.74-.82-3.74s-3.65.89-3.69-.78v-3.43h-1.06v2.06H9.77v-3.58h13.09v3.61zm.75-4.91c-.4 0-.72-.32-.72-.72s.32-.72.72-.72c.4 0 .72.32.72.72s-.32.72-.72.72zm-4.12 2.96h-6.1v1.06h6.1v-1.06zm-6.11 3.15h6.1v-1.06h-6.1v1.06z"></path></g></svg></span></a>
             
             <a class="addthis_button_compact at300m" href="#"><span class="at-icon-wrapper" style="line-height: 16px; height: 16px; width: 16px; background-color: rgb(255, 101, 80);padding:15px 5px 0 5px;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" title="More" alt="More" style="height: 25px;" class="at-icon at-icon-addthis"><g><path d="M18 14V8h-4v6H8v4h6v6h4v-6h6v-4h-6z" fill-rule="evenodd"></path></g></svg></span></a>
-            <a class="addthis_counter addthis_bubble_style" href="#" style="display: inline-block;">0</a>
+            <a class="addthis_counter addthis_bubble_style" href="#" style="display: inline-block;">.</a>
             <a class="atc_s addthis_button_compact"><span></span></a>
         <div class="atclear"></div></div>
         <!-- AddThis Button END -->
