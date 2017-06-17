@@ -7,7 +7,7 @@
 			$result_tinl=$d->result_array();		
 			$curPage = isset($_GET['p']) ? $_GET['p'] : 1;
 			$url=getCurrentPageURL();
-			$maxR=10;
+			$maxR=8;
 			$maxP=5;
 			$paging=paging_home($result_tinl , $url, $curPage, $maxR, $maxP);
 			$result_tinl=$paging['source'];
@@ -39,4 +39,14 @@
       <?php } ?>
     </div>
   </div>
+  
+  <div class="phantrang">
+        <div class="pagination-container">
+        <ul class="pagination">
+        <?=$paging['paging']?>
+        </ul>
+        </div>
+        
+        </div>
+        
 </div>
