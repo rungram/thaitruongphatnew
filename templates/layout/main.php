@@ -100,7 +100,8 @@
       <div class="phantrang"></div>
     </div>
   </div>
-  <div class="product" style="margin: -10px -10px;">
+  <div style="clear:both"></div>
+  <div class="news" >
     <div class="col-md-12 col-sm-12 ">
       <h2 class="title_index">Phụ tùng chính hãng</h2>
       <div class="block-blog1">
