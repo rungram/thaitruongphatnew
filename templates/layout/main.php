@@ -19,10 +19,18 @@
 	$d->query($sql_qc_slide);
 	$qc_slide=$d->result_array();
 	
+	//dich vu
 	$d->reset();
-	$sql_tungdanhmuc="select * from #_product where hienthi = 1 order by stt asc limit 9";
+// 	$sql_tungdanhmuc="select * from #_product where hienthi = 1 order by stt asc limit 9";
+	$sql_tungdanhmuc="select * from #_product where id_list=22 and hienthi = 1 order by stt asc limit 9";
 	$d->query($sql_tungdanhmuc);
 	$result_spnam=$d->result_array();
+	
+	//phu tung
+	$d->reset();
+	$sql_tungdanhmuc="select * from #_product where id_list=21 and hienthi = 1 order by stt asc limit 9";
+	$d->query($sql_tungdanhmuc);
+	$result_phutung=$d->result_array();
 	
 	$d->reset();
 	$sql_linhvuc="select * from #_linhvuc where hienthi = 1 and linhvuc = 1 order by stt asc limit 4";
@@ -30,7 +38,7 @@
 	$result_linhvuc=$d->result_array();
 	
 	$d->reset();
-	$result_detailq="select * from #_tinloai1_1 order by id limit 0,3";
+	$result_detailq="select * from #_tinloai1_1 order by id limit 0,2";
 	$d->query($result_detailq);
 	$result_detailq=$d->result_array();
 	$tg=date('Y-m-d H:i:s');
@@ -67,20 +75,19 @@
 ?>
 
 <div class="col-sm-9 col-lg-9">
-  <div class="info">
-    <h2 class="title_index">Giới thiệu công ty</h2>
-    <?=$noidung_about?>
-  </div>
-  <div class="product">
+  <div class="product" style="margin: -10px -10px;">
     <div class="col-md-12 col-sm-12 ">
-      <h2 class="title_index">Sản phẩm & Dịch vụ</h2>
+      <h2 class="title_index">Dịch vụ cung cấp</h2>
       <div class="block-blog1">
         <?php
          for ($i=0;$i<count($result_spnam);$i++)
          {
          ?>
         <div class=" col-md-4 col-sm-4 col-xsm-6 col-xs-12  padding10">
-          <div class="item-service"><a href="chi-tiet-san-pham/<?=$result_spnam[$i]['tenkhongdau']?>-<?=$result_spnam[$i]['id']?>.html" class="view-img"></a><a href="chi-tiet-san-pham/<?=$result_spnam[$i]['tenkhongdau']?>-<?=$result_spnam[$i]['id']?>.html" class="view-img"><img src="upload/sanpham/<?php if($result_spnam[$i]["tc_big"]==1) echo $result_spnam[$i]["photo"]; else echo $result_spnam[$i]["photo"] ?>" alt="<?=$result_spnam[$i]["ten_vi"]?>"></a><a href="chi-tiet-san-pham/<?=$result_spnam[$i]['tenkhongdau']?>-<?=$result_spnam[$i]['id']?>.html">
+          <div class="item-service">
+          <a href="chi-tiet-san-pham/<?=$result_spnam[$i]['tenkhongdau']?>-<?=$result_spnam[$i]['id']?>.html" class="view-img">
+          <img src="upload/sanpham/<?php if($result_spnam[$i]["tc_big"]==1) echo $result_spnam[$i]["photo"]; else echo $result_spnam[$i]["photo"] ?>" alt="<?=$result_spnam[$i]["ten_vi"]?>"></a>
+          <a href="chi-tiet-san-pham/<?=$result_spnam[$i]['tenkhongdau']?>-<?=$result_spnam[$i]['id']?>.html">
             <h2>
               <?=$result_spnam[$i]["ten_vi"]?>
             </h2>
@@ -93,6 +100,32 @@
       <div class="phantrang"></div>
     </div>
   </div>
+  <div class="product" style="margin: -10px -10px;">
+    <div class="col-md-12 col-sm-12 ">
+      <h2 class="title_index">Phụ tùng chính hãng</h2>
+      <div class="block-blog1">
+        <?php
+         for ($i=0;$i<count($result_phutung);$i++)
+         {
+         ?>
+        <div class=" col-md-4 col-sm-4 col-xsm-6 col-xs-12  padding10">
+          <div class="item-service">
+          <a href="chi-tiet-san-pham/<?=$result_phutung[$i]['tenkhongdau']?>-<?=$result_phutung[$i]['id']?>.html" class="view-img">
+          <img src="upload/sanpham/<?php if($result_phutung[$i]["tc_big"]==1) echo $result_phutung[$i]["photo"]; else echo $result_phutung[$i]["photo"] ?>" alt="<?=$result_phutung[$i]["ten_vi"]?>"></a>
+          <a href="chi-tiet-san-pham/<?=$result_phutung[$i]['tenkhongdau']?>-<?=$result_phutung[$i]['id']?>.html">
+            <h2>
+              <?=$result_phutung[$i]["ten_vi"]?>
+            </h2>
+            </a> </div>
+        </div>
+        <?php
+         } 
+         ?>
+      </div>
+      <div class="phantrang"></div>
+    </div>
+  </div>
+  
   <div style="clear:both"></div>
   <div class="news">
     <h2 class="title_index">Tin tức</h2>

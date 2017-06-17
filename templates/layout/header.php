@@ -92,9 +92,6 @@
 		
     <div class="navbar navbar-default navbar-static-top">
  	
-
-
-
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -109,6 +106,7 @@
                     <li  class=""><a href="index.html">Trang chủ</a></li>
 		            <li><a href="gioi-thieu.html">Giới thiệu</a></li>
                     <?php include _template."layout/menu_top.php"; ?>
+                    <li><a href="tin-tuc-list/tin-tuc-20.html">Tin tức</a></li>
                     <li><a href="lien-he.html">Liên hệ </a></li>
                 </ul>
             </div>
